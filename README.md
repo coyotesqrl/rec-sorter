@@ -12,7 +12,7 @@ Quickie sorting app.
         - 2: Birth date, ascending
         - 3: Last name, descending
 * `make web` starts simple webserver listening on port 4000 with four endpoints:
-    - `POST /records` takes a single line of plain text, formatted like one of the three input files in [src](./src)
+    - `POST /records` takes a single line of plain text, formatted like one of the three input files in [test](./test)
     - `GET /records/email` returns the records in the system sorted by email, ascending
     - `GET /records/birthdate` returns the records in the system sorted by birth date, ascending
     - `GET /records/name` returns the records in the system sorted by last name, ascending
