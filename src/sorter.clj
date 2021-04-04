@@ -5,8 +5,6 @@
             [multisorter :refer [map-multisort]])
   (:import (java.text SimpleDateFormat)))
 
-; todo: more tests
-
 ;
 ; The set of valid whitespace/delimiter characters
 ;

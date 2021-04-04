@@ -28,7 +28,9 @@
                  {:key :first-name :dir 1 :txfn str/upper-case}]))
   (POST "/records" req
     (with-open [rdr (io/reader (:body req))]
-      (swap! data conj (slurp rdr)))))
+      {:status 200
+       :headers {"Content-Type" "application/json"}
+       :body (json/write-str (swap! data conj (slurp rdr)))})))
 
 (defn -main []
   (run-server myapp {:port 4000}))
