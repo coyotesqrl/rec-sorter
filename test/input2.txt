@@ -1,0 +1,6 @@
+Röntgen, Wilhelm,xray@mail.com, white, 3/27/1845
+Lorentz,Hendrik,magneto@transform.com,red,7/18/1853
+Zeeman, Pieter, zman@doubledutch.nl, blue, 5/25/1865
+Becquerel, Antoine, antoine1@mail.com, green, 12/15/1852
+Curie, Pierre, pierre.curie@radium.org, purple, 5/15/1859
+Curie, Marie, marie.curie@radium.org, orange, 7/7/1867

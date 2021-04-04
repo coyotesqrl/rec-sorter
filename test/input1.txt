@@ -1,0 +1,11 @@
+Monroe | James | founder_president@whitehouse.gov | red | 4/28/1758
+Röntgen|Wilhelm|xray@mail.com|white|3/27/1845
+Lorentz | Hendrik | magneto@transform.com | red | 7/18/1853
+Zeeman | Pieter | zman@doubledutch.nl | blue | 5/25/1865
+Washington | George | founder_president@whitehouse.gov | white | 2/22/1732
+Jefferson | Thomas | founder_president@whitehouse.gov | blue | 4/13/1743
+Becquerel | Antoine | antoine1@mail.com | green | 12/15/1852
+Madison | James | founder_president@whitehouse.gov | red | 3/16/1751
+Curie | Pierre | pierre.curie@radium.org | purple | 5/15/1859
+Curie|Marie|marie.curie@radium.org|orange|7/7/1867
+Adams | John | founder_president@whitehouse.gov | white | 10/30/1735

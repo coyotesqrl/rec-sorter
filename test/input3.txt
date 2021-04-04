@@ -1,0 +1,5 @@
+Monroe James founder_president@whitehouse.gov red 4/28/1758
+Washington George founder_president@whitehouse.gov white 2/22/1732
+Jefferson Thomas founder_president@whitehouse.gov blue 4/13/1743
+Madison James founder_president@whitehouse.gov red 3/16/1751
+Adams John founder_president@whitehouse.gov white 10/30/1735

@@ -1,0 +1,28 @@
+{:paths ["src"]
+ :deps
+        {org.clojure/data.json {:mvn/version "2.0.2"}
+         compojure/compojure {:mvn/version "1.6.2"}
+         http-kit/http-kit {:mvn/version "2.5.3"}}
+ :aliases
+        {:main       {:main-opts ["-m" "sorter"]}
+         :web        {:main-opts ["-m" "webmain"]}
+
+         :kondo      {:extra-deps {clj-kondo/clj-kondo {:mvn/version "RELEASE"}}
+                      :main-opts  ["-m" "clj-kondo.main"]}
+         :eastwood   {:extra-deps  {jonase/eastwood {:mvn/version "RELEASE"}}
+                      :extra-paths ["test"]
+                      :main-opts   ["-m" "eastwood.lint" {:source-paths ["src" "test"]}]}
+         :outdated   {:extra-deps {com.github.liquidz/antq {:mvn/version "RELEASE"}}
+                      :main-opts  ["-m" "antq.core"]}
+         :cljfmt-fix {:extra-deps {cljfmt/cljfmt {:mvn/version "RELEASE"}}
+                      :main-opts  ["-m" "cljfmt.main" "fix" "src" "test"]}
+         :kibit-fix  {:extra-deps {tvaughan/kibit-runner {:mvn/version "RELEASE"}}
+                      :main-opts  ["-m" "kibit-runner.cmdline" "--paths" "src,test" "--" "--replace"]}
+
+         :test       {:extra-paths ["test"]
+                      :extra-deps  {cloverage {:mvn/version "RELEASE"}}
+                      :main-opts   ["-m" "cloverage.coverage"
+                                    "--fail-threshold" "20"
+                                    "--src-ns-path" "src"
+                                    "--test-ns-path" "test"
+                                    "--coveralls"]}}}
